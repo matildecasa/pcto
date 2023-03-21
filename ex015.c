@@ -1,13 +1,19 @@
 #include <stdio.h>
 int main() 
-{int x;int y;
-x=0;
+{int x;
+printf("inserisci un numero");
+scanf("%d", &x);
 
-;while (x<100)
-{
-x=x+2;
-y= x+y; 
+int divisore = x-1;
+while (divisore>1)
+{ if (x% divisore ==0)
+{ printf ("non è un numero primo\n"),divisore;
+  break;
 }
-printf("y: %d\n", y);
+divisore--;
+}
+if (divisore==1)
+printf("è un numero primo");   
+}
 
-}
+
