@@ -12,11 +12,8 @@ int n=0;
 
 int main()
 {
+  int n;
   char a[] = "eisha kandyany";
-  int n=0; 
- while (a[n] != 0)
-   {
-     n= n+1;
-   }  
-   printf ("la stringa è lunga %d",n);
+  n = ft_strlen(a);
+  printf ("la stringa è lunga %d",n);
 }  
