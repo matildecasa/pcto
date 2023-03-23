@@ -8,6 +8,7 @@ int main()
     scanf("%d", &y);
     printf("x: %d\n", x);
     printf("y: %d\n", y); 
+    
     if (y>0 && x>0)
     {
       printf("si trova nel primo quadrante");   
@@ -19,6 +20,18 @@ int main()
     else if (y<0 && x<0)
     {
       printf ("si trova nel terzo quadrante");
+    }
+    else if (y==0 && x!=0)
+    {
+        printf ("si trova sull0asse delle y");
+    }
+    else if (y!=0 && x==0)
+    {
+        printf (" si trova sull'asse delle x");
+    }
+    else if ( y==0 && x==0)
+    {
+        printf (" passa per l'origine");
     }
     else 
     {
