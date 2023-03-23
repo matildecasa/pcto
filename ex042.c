@@ -23,11 +23,11 @@ int main()
     }
     else if (y==0 && x!=0)
     {
-        printf ("si trova sull0asse delle y");
+        printf ("si trova sull0asse delle x");
     }
     else if (y!=0 && x==0)
     {
-        printf (" si trova sull'asse delle x");
+        printf (" si trova sull'asse delle y");
     }
     else if ( y==0 && x==0)
     {
